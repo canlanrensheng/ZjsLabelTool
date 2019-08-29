@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZjsLabelTool_Tests' do
+  pod 'ZjsLabelTool', :path => '../'
+  
+  
+end
