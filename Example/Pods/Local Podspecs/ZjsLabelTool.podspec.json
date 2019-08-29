@@ -1,0 +1,22 @@
+{
+  "name": "ZjsLabelTool",
+  "version": "1.0.0",
+  "summary": "A short description of ZjsLabelTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/canlanrensheng/ZjsLabelTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "canlanrensheng": "2649154231@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/canlanrensheng/ZjsLabelTool.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZjsLabelTool/Classes/**/*"
+}

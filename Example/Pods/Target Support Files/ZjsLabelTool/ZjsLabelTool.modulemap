@@ -1,0 +1,6 @@
+framework module ZjsLabelTool {
+  umbrella header "ZjsLabelTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

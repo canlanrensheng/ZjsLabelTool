@@ -1,0 +1,16 @@
+PODS:
+  - ZjsLabelTool (1.0.0)
+
+DEPENDENCIES:
+  - ZjsLabelTool (from `../`)
+
+EXTERNAL SOURCES:
+  ZjsLabelTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZjsLabelTool: dec7c2348b1e43486eb66d1c3c56990ab8080033
+
+PODFILE CHECKSUM: b368421fac38d605289c46e7246615134833ba93
+
+COCOAPODS: 1.8.0.beta.2

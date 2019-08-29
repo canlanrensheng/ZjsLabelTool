@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1953B3769F3CE2C3302B1F80 /* ZjsLabelTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZjsLabelTool.podspec; path = ../ZjsLabelTool.podspec; sourceTree = "<group>"; };
+		1953B3769F3CE2C3302B1F80 /* ZjsLabelTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZjsLabelTool.podspec; path = ../ZjsLabelTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,9 +27,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		616EFE21CF76361DB67F65D7 /* Pods-ZjsLabelTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZjsLabelTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZjsLabelTool_Tests/Pods-ZjsLabelTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		699D8C9F2E102CA0E771D617 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		699D8C9F2E102CA0E771D617 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7F5C3CFF047F99D92349A5AD /* Pods-ZjsLabelTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZjsLabelTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZjsLabelTool_Tests/Pods-ZjsLabelTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93B12BBBBB17F43BF9543FFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		93B12BBBBB17F43BF9543FFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E20531101FC03B848F60A397 /* Pods_ZjsLabelTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZjsLabelTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,7 +114,6 @@
 				616EFE21CF76361DB67F65D7 /* Pods-ZjsLabelTool_Tests.debug.xcconfig */,
 				7F5C3CFF047F99D92349A5AD /* Pods-ZjsLabelTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

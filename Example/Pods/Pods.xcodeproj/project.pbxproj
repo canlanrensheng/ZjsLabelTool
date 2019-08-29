@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05951B5A13465D2C20070EDC93A8D2E4 /* ZjsLabelTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB656855D68651285CB1A68036AB03BB /* ZjsLabelTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07C6C956DE6FA1DDD9CD4DBF37CAAC90 /* ZjsLabelTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B71552C3DFB9BE3ADD3AAE7F204163B1 /* ZjsLabelTool-dummy.m */; };
+		8C3E1E7DACD9BEC2743E5F3A5F5FFD4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8FB1657C7314B7B017183A8D4A1A8712 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF502E354B24AA162A09125A3F46B4D /* ReplaceMe.m */; };
+		B4F88AD6D4BA3BD111CD0E0C1E6F5648 /* UILabel+LJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81530F5F601EBF706F13FC2C6B19D320 /* UILabel+LJLabel.m */; };
+		C39E282893821D62FBE1E1B3B0084A2D /* Pods-ZjsLabelTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D9007FB3FF87D546BB4357A352B3E1 /* Pods-ZjsLabelTool_Tests-dummy.m */; };
+		C453B5DA6CF3011FD8EE174E24EF1543 /* UIButton+LJButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E650CE2AFE6A8B6342948F4E0F5F148 /* UIButton+LJButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1EB4870C6324386EA5D51663F7AC615 /* UIButton+LJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8299839334E9D20CD3FDC92A1F232 /* UIButton+LJButton.m */; };
+		E6F25179E43D3513B6F16B69D131D283 /* Pods-ZjsLabelTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6712EFAB65BC81F194879A374E49ACE1 /* Pods-ZjsLabelTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F07CC2BF776F8B8A44C6D459E55290C0 /* LJConst.h in Headers */ = {isa = PBXBuildFile; fileRef = D5EA35CCE79A833C0CCDF3C45B8FF005 /* LJConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB13429FE524B53A01B143CEAC76206 /* UILabel+LJLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E3661134A7A21EDEFCC0C6FD745C02BE /* UILabel+LJLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFE2268EFB0449C89CD89B143F25FB98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FE69236E7574BB18A77EC35ABB1F611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9B8DB750B9AB9F487CFE1B3548F6DEB;
+			remoteInfo = ZjsLabelTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053277893515A59CD7D510CA3ED95151 /* ZjsLabelTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZjsLabelTool.modulemap; sourceTree = "<group>"; };
+		0DDD39E67C78A09479F3083FC86720B9 /* Pods_ZjsLabelTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZjsLabelTool_Tests.framework; path = "Pods-ZjsLabelTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF502E354B24AA162A09125A3F46B4D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZjsLabelTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		0E98D0653558C9F2EB2BDA67B9D35ED0 /* Pods-ZjsLabelTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZjsLabelTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0FC48B2588EDCEE10F94BE50370D3C01 /* ZjsLabelTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZjsLabelTool-Info.plist"; sourceTree = "<group>"; };
+		2FD537B13564C5FF362232D4072B6764 /* ZjsLabelTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZjsLabelTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		303A4E1B613CFA4239B60719FCDE5087 /* ZjsLabelTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZjsLabelTool.framework; path = ZjsLabelTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E650CE2AFE6A8B6342948F4E0F5F148 /* UIButton+LJButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+LJButton.h"; sourceTree = "<group>"; };
+		6712EFAB65BC81F194879A374E49ACE1 /* Pods-ZjsLabelTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZjsLabelTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		74CBB2AD9A01D1F774C7102A2D0413A6 /* Pods-ZjsLabelTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZjsLabelTool_Tests.modulemap"; sourceTree = "<group>"; };
+		81530F5F601EBF706F13FC2C6B19D320 /* UILabel+LJLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LJLabel.m"; sourceTree = "<group>"; };
+		890A6189C9911C04AE20598C2B2AF873 /* ZjsLabelTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZjsLabelTool.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2C8299839334E9D20CD3FDC92A1F232 /* UIButton+LJButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LJButton.m"; sourceTree = "<group>"; };
+		A756AACA1AB940EECE28FAF2313C2B0E /* Pods-ZjsLabelTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZjsLabelTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		AFE1ADCAD1B24F1524CD98709B0F86F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B2D0D1C32AA7EFBBCD11C46BBE8C5D75 /* ZjsLabelTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZjsLabelTool-prefix.pch"; sourceTree = "<group>"; };
+		B71552C3DFB9BE3ADD3AAE7F204163B1 /* ZjsLabelTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZjsLabelTool-dummy.m"; sourceTree = "<group>"; };
+		BA4D0024CF770BD749E8CBCFB4D729BF /* Pods-ZjsLabelTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZjsLabelTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA1807683EDF835704F098178FF9FB14 /* Pods-ZjsLabelTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZjsLabelTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CB656855D68651285CB1A68036AB03BB /* ZjsLabelTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZjsLabelTool-umbrella.h"; sourceTree = "<group>"; };
+		D276DF121E66B2B79110064E7BB12101 /* Pods-ZjsLabelTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZjsLabelTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5EA35CCE79A833C0CCDF3C45B8FF005 /* LJConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LJConst.h; sourceTree = "<group>"; };
+		D863076430296237099C9C8C5C561F28 /* Pods-ZjsLabelTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZjsLabelTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3661134A7A21EDEFCC0C6FD745C02BE /* UILabel+LJLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+LJLabel.h"; sourceTree = "<group>"; };
+		F1C28077F2533823EE8B5AA8638EB0BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F1D9007FB3FF87D546BB4357A352B3E1 /* Pods-ZjsLabelTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZjsLabelTool_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		735CA3FDD77BE04372946610376CA5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE2268EFB0449C89CD89B143F25FB98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B607134C165B465FA41D9E66081E37EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3E1E7DACD9BEC2743E5F3A5F5FFD4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D419BF567F38DF34A059724F4A7F2C /* Pods-ZjsLabelTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				74CBB2AD9A01D1F774C7102A2D0413A6 /* Pods-ZjsLabelTool_Tests.modulemap */,
+				D863076430296237099C9C8C5C561F28 /* Pods-ZjsLabelTool_Tests-acknowledgements.markdown */,
+				BA4D0024CF770BD749E8CBCFB4D729BF /* Pods-ZjsLabelTool_Tests-acknowledgements.plist */,
+				F1D9007FB3FF87D546BB4357A352B3E1 /* Pods-ZjsLabelTool_Tests-dummy.m */,
+				0E98D0653558C9F2EB2BDA67B9D35ED0 /* Pods-ZjsLabelTool_Tests-frameworks.sh */,
+				A756AACA1AB940EECE28FAF2313C2B0E /* Pods-ZjsLabelTool_Tests-Info.plist */,
+				6712EFAB65BC81F194879A374E49ACE1 /* Pods-ZjsLabelTool_Tests-umbrella.h */,
+				D276DF121E66B2B79110064E7BB12101 /* Pods-ZjsLabelTool_Tests.debug.xcconfig */,
+				CA1807683EDF835704F098178FF9FB14 /* Pods-ZjsLabelTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZjsLabelTool_Tests";
+			path = "Target Support Files/Pods-ZjsLabelTool_Tests";
+			sourceTree = "<group>";
+		};
+		7B9BBFC8FBDE2165ED3C7FA9028A9F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DDD39E67C78A09479F3083FC86720B9 /* Pods_ZjsLabelTool_Tests.framework */,
+				303A4E1B613CFA4239B60719FCDE5087 /* ZjsLabelTool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE159B1B2E731529F74226679CAB9D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47D419BF567F38DF34A059724F4A7F2C /* Pods-ZjsLabelTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A625F8E5AA1AD2A26B1277427E05363F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F1C28077F2533823EE8B5AA8638EB0BF /* LICENSE */,
+				AFE1ADCAD1B24F1524CD98709B0F86F1 /* README.md */,
+				2FD537B13564C5FF362232D4072B6764 /* ZjsLabelTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AE048883DBB4CE320228DDFBD25B0336 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D5EA35CCE79A833C0CCDF3C45B8FF005 /* LJConst.h */,
+				3E650CE2AFE6A8B6342948F4E0F5F148 /* UIButton+LJButton.h */,
+				A2C8299839334E9D20CD3FDC92A1F232 /* UIButton+LJButton.m */,
+				E3661134A7A21EDEFCC0C6FD745C02BE /* UILabel+LJLabel.h */,
+				81530F5F601EBF706F13FC2C6B19D320 /* UILabel+LJLabel.m */,
+			);
+			name = Category;
+			path = ZjsLabelTool/Classes/Category;
+			sourceTree = "<group>";
+		};
+		B5C5C62004E1CAA86AFEFEC0B3E19CEA /* ZjsLabelTool */ = {
+			isa = PBXGroup;
+			children = (
+				0DF502E354B24AA162A09125A3F46B4D /* ReplaceMe.m */,
+				AE048883DBB4CE320228DDFBD25B0336 /* Category */,
+				A625F8E5AA1AD2A26B1277427E05363F /* Pod */,
+				F5064CF9A7E82FB50666EE42B1CD3F13 /* Support Files */,
+			);
+			name = ZjsLabelTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9DC475AC72E450081D902C82B916B71 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5C5C62004E1CAA86AFEFEC0B3E19CEA /* ZjsLabelTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C9DC475AC72E450081D902C82B916B71 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7B9BBFC8FBDE2165ED3C7FA9028A9F27 /* Products */,
+				7FE159B1B2E731529F74226679CAB9D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5064CF9A7E82FB50666EE42B1CD3F13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				053277893515A59CD7D510CA3ED95151 /* ZjsLabelTool.modulemap */,
+				890A6189C9911C04AE20598C2B2AF873 /* ZjsLabelTool.xcconfig */,
+				B71552C3DFB9BE3ADD3AAE7F204163B1 /* ZjsLabelTool-dummy.m */,
+				0FC48B2588EDCEE10F94BE50370D3C01 /* ZjsLabelTool-Info.plist */,
+				B2D0D1C32AA7EFBBCD11C46BBE8C5D75 /* ZjsLabelTool-prefix.pch */,
+				CB656855D68651285CB1A68036AB03BB /* ZjsLabelTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZjsLabelTool";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A56A79C1C70567B393891EACF1AEC54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F25179E43D3513B6F16B69D131D283 /* Pods-ZjsLabelTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73073034D38F2DA665B4CC5E4D7DF639 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07CC2BF776F8B8A44C6D459E55290C0 /* LJConst.h in Headers */,
+				C453B5DA6CF3011FD8EE174E24EF1543 /* UIButton+LJButton.h in Headers */,
+				FDB13429FE524B53A01B143CEAC76206 /* UILabel+LJLabel.h in Headers */,
+				05951B5A13465D2C20070EDC93A8D2E4 /* ZjsLabelTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E8E782D6073086B472EB7E4C523DF99 /* Pods-ZjsLabelTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73F963BC9B237DEDEC5A198A4151CCA9 /* Build configuration list for PBXNativeTarget "Pods-ZjsLabelTool_Tests" */;
+			buildPhases = (
+				2A56A79C1C70567B393891EACF1AEC54 /* Headers */,
+				F82490EAD53C118C10E11960C7DEC1D1 /* Sources */,
+				B607134C165B465FA41D9E66081E37EE /* Frameworks */,
+				5240F431B0DD8BD7EA89C7C61B763B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92B7826E1C73A49DA76D9719BA7C921 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZjsLabelTool_Tests";
+			productName = "Pods-ZjsLabelTool_Tests";
+			productReference = 0DDD39E67C78A09479F3083FC86720B9 /* Pods_ZjsLabelTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9B8DB750B9AB9F487CFE1B3548F6DEB /* ZjsLabelTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A420D3D7B04F230678C39B04CA212584 /* Build configuration list for PBXNativeTarget "ZjsLabelTool" */;
+			buildPhases = (
+				73073034D38F2DA665B4CC5E4D7DF639 /* Headers */,
+				791ECDB79991B1C8D9F7703145F0329F /* Sources */,
+				735CA3FDD77BE04372946610376CA5C9 /* Frameworks */,
+				FFAD6BDF06C1BA9DEF939E2E7D23FE51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZjsLabelTool;
+			productName = ZjsLabelTool;
+			productReference = 303A4E1B613CFA4239B60719FCDE5087 /* ZjsLabelTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7B9BBFC8FBDE2165ED3C7FA9028A9F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E8E782D6073086B472EB7E4C523DF99 /* Pods-ZjsLabelTool_Tests */,
+				D9B8DB750B9AB9F487CFE1B3548F6DEB /* ZjsLabelTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5240F431B0DD8BD7EA89C7C61B763B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAD6BDF06C1BA9DEF939E2E7D23FE51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		791ECDB79991B1C8D9F7703145F0329F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB1657C7314B7B017183A8D4A1A8712 /* ReplaceMe.m in Sources */,
+				E1EB4870C6324386EA5D51663F7AC615 /* UIButton+LJButton.m in Sources */,
+				B4F88AD6D4BA3BD111CD0E0C1E6F5648 /* UILabel+LJLabel.m in Sources */,
+				07C6C956DE6FA1DDD9CD4DBF37CAAC90 /* ZjsLabelTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82490EAD53C118C10E11960C7DEC1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39E282893821D62FBE1E1B3B0084A2D /* Pods-ZjsLabelTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E92B7826E1C73A49DA76D9719BA7C921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZjsLabelTool;
+			target = D9B8DB750B9AB9F487CFE1B3548F6DEB /* ZjsLabelTool */;
+			targetProxy = 0FE69236E7574BB18A77EC35ABB1F611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F8E23A45B3A5C1551825BF13240A37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890A6189C9911C04AE20598C2B2AF873 /* ZjsLabelTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZjsLabelTool/ZjsLabelTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZjsLabelTool/ZjsLabelTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZjsLabelTool/ZjsLabelTool.modulemap";
+				PRODUCT_MODULE_NAME = ZjsLabelTool;
+				PRODUCT_NAME = ZjsLabelTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89A870A2303E61821056E806C5525983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1807683EDF835704F098178FF9FB14 /* Pods-ZjsLabelTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZjsLabelTool_Tests/Pods-ZjsLabelTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZjsLabelTool_Tests/Pods-ZjsLabelTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		999124133AE55EF8A72859A6DE82169A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890A6189C9911C04AE20598C2B2AF873 /* ZjsLabelTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZjsLabelTool/ZjsLabelTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZjsLabelTool/ZjsLabelTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZjsLabelTool/ZjsLabelTool.modulemap";
+				PRODUCT_MODULE_NAME = ZjsLabelTool;
+				PRODUCT_NAME = ZjsLabelTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0BF9A9A24C6C5F035AF97F97E8963E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D276DF121E66B2B79110064E7BB12101 /* Pods-ZjsLabelTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZjsLabelTool_Tests/Pods-ZjsLabelTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZjsLabelTool_Tests/Pods-ZjsLabelTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73F963BC9B237DEDEC5A198A4151CCA9 /* Build configuration list for PBXNativeTarget "Pods-ZjsLabelTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BF9A9A24C6C5F035AF97F97E8963E8 /* Debug */,
+				89A870A2303E61821056E806C5525983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A420D3D7B04F230678C39B04CA212584 /* Build configuration list for PBXNativeTarget "ZjsLabelTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8E23A45B3A5C1551825BF13240A37D /* Debug */,
+				999124133AE55EF8A72859A6DE82169A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
